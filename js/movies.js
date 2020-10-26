@@ -1,4 +1,6 @@
-const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?')
+"use stirct";
+
+const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?');
 
 const personalMovieBD = {
     count: numberOfFilms,
@@ -13,7 +15,7 @@ const a = prompt('Один из последних просмотренных ф
       c = prompt('Один из последних просмотренных фильмов?'),
       d = +prompt('На сколько оцените его?');
 
-personalMovieBD.genres[a] = b;
-personalMovieBD.genres[c] = d;
+personalMovieBD.movies[a] = b;
+personalMovieBD.movies[c] = d;
 
 console.log(personalMovieBD);
